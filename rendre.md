@@ -53,6 +53,7 @@ PASS_WARN_AGE 10
 ```bash
 sudo groupadd jin
 sudo adduser jinroot
+sudo passwd jinroot 
 ```
 
 ### Configuration des permissions : Pour permettre à tous les membres du groupe jin d'utiliser la commande sudo pour obtenir les droits root, modifiez le fichier /etc/sudoers
